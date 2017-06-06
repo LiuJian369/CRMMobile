@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6447D69FC786D30AD7C317CB /* libPods-CRMMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15233DE38E1349AB3A22C8DD /* libPods-CRMMobile.a */; };
+		C057B5231ED542980048BA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C057B5221ED542980048BA86 /* main.m */; };
+		C057B5261ED542980048BA86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C057B5251ED542980048BA86 /* AppDelegate.m */; };
+		C057B5291ED542980048BA86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C057B5281ED542980048BA86 /* ViewController.m */; };
+		C057B52C1ED542980048BA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C057B52A1ED542980048BA86 /* Main.storyboard */; };
+		C057B5311ED542980048BA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C057B52F1ED542980048BA86 /* LaunchScreen.storyboard */; };
+		C057B53C1ED542990048BA86 /* CRMMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C057B53B1ED542990048BA86 /* CRMMobileTests.m */; };
+		C057B5471ED542990048BA86 /* CRMMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C057B5461ED542990048BA86 /* CRMMobileUITests.m */; };
+		C0B9617F1EDFB5DC00353BF5 /* Area.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0B9616E1EDFB5DC00353BF5 /* Area.plist */; };
+		C0B961801EDFB5DC00353BF5 /* City.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0B9616F1EDFB5DC00353BF5 /* City.plist */; };
+		C0B961811EDFB5DC00353BF5 /* Province.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0B961701EDFB5DC00353BF5 /* Province.plist */; };
+		C0B961821EDFB5DC00353BF5 /* ZJDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B961721EDFB5DC00353BF5 /* ZJDatePickerView.m */; };
+		C0B961831EDFB5DC00353BF5 /* ZJMultipleAssociatedPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B961741EDFB5DC00353BF5 /* ZJMultipleAssociatedPickerView.m */; };
+		C0B961841EDFB5DC00353BF5 /* ZJMultiplePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B961761EDFB5DC00353BF5 /* ZJMultiplePickerView.m */; };
+		C0B961851EDFB5DC00353BF5 /* ZJSelectedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B961781EDFB5DC00353BF5 /* ZJSelectedTextField.m */; };
+		C0B961861EDFB5DC00353BF5 /* ZJSinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9617A1EDFB5DC00353BF5 /* ZJSinglePickerView.m */; };
+		C0B961871EDFB5DC00353BF5 /* ZJToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9617C1EDFB5DC00353BF5 /* ZJToolBar.m */; };
+		C0B961881EDFB5DC00353BF5 /* ZJUsefulPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9617E1EDFB5DC00353BF5 /* ZJUsefulPickerView.m */; };
+		C0C540FF1ED82D12006C037C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C540FE1ED82D12006C037C /* UIView+Extension.m */; };
+		C0C541021ED8323D006C037C /* NSString+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541011ED8323D006C037C /* NSString+Frame.m */; };
+		C0C541051ED83325006C037C /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541041ED83325006C037C /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
+		C0C541081ED90D17006C037C /* QuickControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541071ED90D17006C037C /* QuickControl.m */; };
+		C0C541131ED913E2006C037C /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5410C1ED913E2006C037C /* CYLPlusButton.m */; };
+		C0C541141ED913E2006C037C /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5410E1ED913E2006C037C /* CYLTabBar.m */; };
+		C0C541151ED913E2006C037C /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541101ED913E2006C037C /* CYLTabBarController.m */; };
+		C0C541161ED913E2006C037C /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541121ED913E2006C037C /* UIViewController+CYLTabBarControllerExtention.m */; };
+		C0C5411F1ED91CFE006C037C /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5411E1ED91CFE006C037C /* CYLTabBarControllerConfig.m */; };
+		C0C541361ED92B0E006C037C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541351ED92B0E006C037C /* BaseViewController.m */; };
+		C0C5413A1ED92CA3006C037C /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541381ED92CA3006C037C /* HomePageViewController.m */; };
+		C0C5413B1ED92CA3006C037C /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C541391ED92CA3006C037C /* HomePageViewController.xib */; };
+		C0C5413F1ED92CBC006C037C /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5413D1ED92CBC006C037C /* MarketViewController.m */; };
+		C0C541401ED92CBC006C037C /* MarketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C5413E1ED92CBC006C037C /* MarketViewController.xib */; };
+		C0C541441ED92CD2006C037C /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541421ED92CD2006C037C /* MineViewController.m */; };
+		C0C541451ED92CD2006C037C /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C541431ED92CD2006C037C /* MineViewController.xib */; };
+		C0C541491ED92CE9006C037C /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541471ED92CE9006C037C /* CustomerViewController.m */; };
+		C0C5414A1ED92CE9006C037C /* CustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C541481ED92CE9006C037C /* CustomerViewController.xib */; };
+		C0C5414D1ED93689006C037C /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5414C1ED93689006C037C /* BaseNavigationViewController.m */; };
+		C0C541511ED94FD9006C037C /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5414F1ED94FD9006C037C /* HomeDetailViewController.m */; };
+		C0C541521ED94FD9006C037C /* HomeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C541501ED94FD9006C037C /* HomeDetailViewController.xib */; };
+		C0C541541ED95271006C037C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C541531ED95271006C037C /* Assets.xcassets */; };
+		C0C541581ED9548A006C037C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541571ED9548A006C037C /* Reachability.m */; };
+		C0C5415E1ED9575B006C037C /* PPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5415B1ED9575B006C037C /* PPNetworkCache.m */; };
+		C0C5415F1ED9575B006C037C /* PPNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5415D1ED9575B006C037C /* PPNetworkHelper.m */; };
+		C0C541651ED95E26006C037C /* MBProgressHUD+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541641ED95E26006C037C /* MBProgressHUD+MP.m */; };
+		C0C541681ED9763D006C037C /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C541671ED9763D006C037C /* BaseTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C057B5381ED542990048BA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C057B5161ED542960048BA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C057B51D1ED542970048BA86;
+			remoteInfo = CRMMobile;
+		};
+		C057B5431ED542990048BA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C057B5161ED542960048BA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C057B51D1ED542970048BA86;
+			remoteInfo = CRMMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15233DE38E1349AB3A22C8DD /* libPods-CRMMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRMMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE3EE15A072BAA57E3F2FF0 /* Pods-CRMMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRMMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRMMobile/Pods-CRMMobile.release.xcconfig"; sourceTree = "<group>"; };
+		C057B51E1ED542970048BA86 /* CRMMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057B5221ED542980048BA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C057B5241ED542980048BA86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C057B5251ED542980048BA86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C057B5271ED542980048BA86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C057B5281ED542980048BA86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C057B52B1ED542980048BA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C057B5301ED542980048BA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C057B5321ED542980048BA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C057B5371ED542980048BA86 /* CRMMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057B53B1ED542990048BA86 /* CRMMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMMobileTests.m; sourceTree = "<group>"; };
+		C057B53D1ED542990048BA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C057B5421ED542990048BA86 /* CRMMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057B5461ED542990048BA86 /* CRMMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMMobileUITests.m; sourceTree = "<group>"; };
+		C057B5481ED542990048BA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C057B5601ED556DA0048BA86 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C057B5611ED559C40048BA86 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		C0B9616E1EDFB5DC00353BF5 /* Area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Area.plist; sourceTree = "<group>"; };
+		C0B9616F1EDFB5DC00353BF5 /* City.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+		C0B961701EDFB5DC00353BF5 /* Province.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Province.plist; sourceTree = "<group>"; };
+		C0B961711EDFB5DC00353BF5 /* ZJDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDatePickerView.h; sourceTree = "<group>"; };
+		C0B961721EDFB5DC00353BF5 /* ZJDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDatePickerView.m; sourceTree = "<group>"; };
+		C0B961731EDFB5DC00353BF5 /* ZJMultipleAssociatedPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMultipleAssociatedPickerView.h; sourceTree = "<group>"; };
+		C0B961741EDFB5DC00353BF5 /* ZJMultipleAssociatedPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMultipleAssociatedPickerView.m; sourceTree = "<group>"; };
+		C0B961751EDFB5DC00353BF5 /* ZJMultiplePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMultiplePickerView.h; sourceTree = "<group>"; };
+		C0B961761EDFB5DC00353BF5 /* ZJMultiplePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMultiplePickerView.m; sourceTree = "<group>"; };
+		C0B961771EDFB5DC00353BF5 /* ZJSelectedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSelectedTextField.h; sourceTree = "<group>"; };
+		C0B961781EDFB5DC00353BF5 /* ZJSelectedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSelectedTextField.m; sourceTree = "<group>"; };
+		C0B961791EDFB5DC00353BF5 /* ZJSinglePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSinglePickerView.h; sourceTree = "<group>"; };
+		C0B9617A1EDFB5DC00353BF5 /* ZJSinglePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSinglePickerView.m; sourceTree = "<group>"; };
+		C0B9617B1EDFB5DC00353BF5 /* ZJToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJToolBar.h; sourceTree = "<group>"; };
+		C0B9617C1EDFB5DC00353BF5 /* ZJToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJToolBar.m; sourceTree = "<group>"; };
+		C0B9617D1EDFB5DC00353BF5 /* ZJUsefulPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJUsefulPickerView.h; sourceTree = "<group>"; };
+		C0B9617E1EDFB5DC00353BF5 /* ZJUsefulPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJUsefulPickerView.m; sourceTree = "<group>"; };
+		C0C540FC1ED82B48006C037C /* Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		C0C540FD1ED82D12006C037C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C0C540FE1ED82D12006C037C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C0C541001ED8323D006C037C /* NSString+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Frame.h"; sourceTree = "<group>"; };
+		C0C541011ED8323D006C037C /* NSString+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Frame.m"; sourceTree = "<group>"; };
+		C0C541031ED83325006C037C /* UILabel+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
+		C0C541041ED83325006C037C /* UILabel+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
+		C0C541061ED90D17006C037C /* QuickControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickControl.h; sourceTree = "<group>"; };
+		C0C541071ED90D17006C037C /* QuickControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickControl.m; sourceTree = "<group>"; };
+		C0C5410A1ED913E2006C037C /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		C0C5410B1ED913E2006C037C /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		C0C5410C1ED913E2006C037C /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		C0C5410D1ED913E2006C037C /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		C0C5410E1ED913E2006C037C /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		C0C5410F1ED913E2006C037C /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		C0C541101ED913E2006C037C /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		C0C541111ED913E2006C037C /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		C0C541121ED913E2006C037C /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		C0C5411D1ED91CFE006C037C /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		C0C5411E1ED91CFE006C037C /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		C0C541341ED92B0E006C037C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C0C541351ED92B0E006C037C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C0C541371ED92CA3006C037C /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		C0C541381ED92CA3006C037C /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		C0C541391ED92CA3006C037C /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		C0C5413C1ED92CBC006C037C /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
+		C0C5413D1ED92CBC006C037C /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
+		C0C5413E1ED92CBC006C037C /* MarketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketViewController.xib; sourceTree = "<group>"; };
+		C0C541411ED92CD2006C037C /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		C0C541421ED92CD2006C037C /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		C0C541431ED92CD2006C037C /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		C0C541461ED92CE9006C037C /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		C0C541471ED92CE9006C037C /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		C0C541481ED92CE9006C037C /* CustomerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerViewController.xib; sourceTree = "<group>"; };
+		C0C5414B1ED93689006C037C /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		C0C5414C1ED93689006C037C /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		C0C5414E1ED94FD9006C037C /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
+		C0C5414F1ED94FD9006C037C /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
+		C0C541501ED94FD9006C037C /* HomeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeDetailViewController.xib; sourceTree = "<group>"; };
+		C0C541531ED95271006C037C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0C541561ED9548A006C037C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C0C541571ED9548A006C037C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C0C5415A1ED9575B006C037C /* PPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkCache.h; sourceTree = "<group>"; };
+		C0C5415B1ED9575B006C037C /* PPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkCache.m; sourceTree = "<group>"; };
+		C0C5415C1ED9575B006C037C /* PPNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkHelper.h; sourceTree = "<group>"; };
+		C0C5415D1ED9575B006C037C /* PPNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkHelper.m; sourceTree = "<group>"; };
+		C0C541631ED95E26006C037C /* MBProgressHUD+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MP.h"; sourceTree = "<group>"; };
+		C0C541641ED95E26006C037C /* MBProgressHUD+MP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MP.m"; sourceTree = "<group>"; };
+		C0C541661ED9763D006C037C /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		C0C541671ED9763D006C037C /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		D871095453819DD1475EF2C9 /* Pods-CRMMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRMMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRMMobile/Pods-CRMMobile.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C057B51B1ED542970048BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6447D69FC786D30AD7C317CB /* libPods-CRMMobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057B5341ED542980048BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057B53F1ED542990048BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D1C74B054C0B87A36B6255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15233DE38E1349AB3A22C8DD /* libPods-CRMMobile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C057B5151ED542960048BA86 = {
+			isa = PBXGroup;
+			children = (
+				C057B5201ED542970048BA86 /* CRMMobile */,
+				C057B53A1ED542990048BA86 /* CRMMobileTests */,
+				C057B5451ED542990048BA86 /* CRMMobileUITests */,
+				C057B51F1ED542970048BA86 /* Products */,
+				F29DC1AD4841DB769252BCAF /* Pods */,
+				63D1C74B054C0B87A36B6255 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C057B51F1ED542970048BA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C057B51E1ED542970048BA86 /* CRMMobile.app */,
+				C057B5371ED542980048BA86 /* CRMMobileTests.xctest */,
+				C057B5421ED542990048BA86 /* CRMMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C057B5201ED542970048BA86 /* CRMMobile */ = {
+			isa = PBXGroup;
+			children = (
+				C057B55A1ED555BD0048BA86 /* Common */,
+				C057B55B1ED555BD0048BA86 /* Classes */,
+				C057B5571ED554AA0048BA86 /* Lib */,
+				C057B5581ED554AA0048BA86 /* Tools */,
+				C057B5591ED554AA0048BA86 /* Category */,
+				C057B5241ED542980048BA86 /* AppDelegate.h */,
+				C057B5251ED542980048BA86 /* AppDelegate.m */,
+				C057B5271ED542980048BA86 /* ViewController.h */,
+				C057B5281ED542980048BA86 /* ViewController.m */,
+				C0C541531ED95271006C037C /* Assets.xcassets */,
+				C057B52A1ED542980048BA86 /* Main.storyboard */,
+				C057B52F1ED542980048BA86 /* LaunchScreen.storyboard */,
+				C057B5321ED542980048BA86 /* Info.plist */,
+				C057B5211ED542980048BA86 /* Supporting Files */,
+			);
+			path = CRMMobile;
+			sourceTree = "<group>";
+		};
+		C057B5211ED542980048BA86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C057B5221ED542980048BA86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C057B53A1ED542990048BA86 /* CRMMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				C057B53B1ED542990048BA86 /* CRMMobileTests.m */,
+				C057B53D1ED542990048BA86 /* Info.plist */,
+			);
+			path = CRMMobileTests;
+			sourceTree = "<group>";
+		};
+		C057B5451ED542990048BA86 /* CRMMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C057B5461ED542990048BA86 /* CRMMobileUITests.m */,
+				C057B5481ED542990048BA86 /* Info.plist */,
+			);
+			path = CRMMobileUITests;
+			sourceTree = "<group>";
+		};
+		C057B5571ED554AA0048BA86 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C0B9616D1EDFB5DC00353BF5 /* ZJUsefulPickerView */,
+				C0C541091ED913E2006C037C /* CYLTabBarController */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C057B5581ED554AA0048BA86 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541591ED9574D006C037C /* 网络请求 */,
+				C0C541551ED9548A006C037C /* Reachability */,
+				C0C541061ED90D17006C037C /* QuickControl.h */,
+				C0C541071ED90D17006C037C /* QuickControl.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C057B5591ED554AA0048BA86 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541631ED95E26006C037C /* MBProgressHUD+MP.h */,
+				C0C541641ED95E26006C037C /* MBProgressHUD+MP.m */,
+				C0C541031ED83325006C037C /* UILabel+ChangeLineSpaceAndWordSpace.h */,
+				C0C541041ED83325006C037C /* UILabel+ChangeLineSpaceAndWordSpace.m */,
+				C0C541001ED8323D006C037C /* NSString+Frame.h */,
+				C0C541011ED8323D006C037C /* NSString+Frame.m */,
+				C0C540FD1ED82D12006C037C /* UIView+Extension.h */,
+				C0C540FE1ED82D12006C037C /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C057B55A1ED555BD0048BA86 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C057B5601ED556DA0048BA86 /* PrefixHeader.pch */,
+				C057B5611ED559C40048BA86 /* Macros.h */,
+				C0C540FC1ED82B48006C037C /* Interface.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C057B55B1ED555BD0048BA86 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541201ED91EC4006C037C /* Base(基类) */,
+				C0C541281ED91EC4006C037C /* Home(首页) */,
+				C0C541241ED91EC4006C037C /* Customer(客户) */,
+				C0C5412C1ED91EC4006C037C /* Market(市场) */,
+				C0C541301ED91EC4006C037C /* Mine(我的) */,
+				C0C541191ED91C93006C037C /* Public(公共) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0B9616D1EDFB5DC00353BF5 /* ZJUsefulPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C0B9616E1EDFB5DC00353BF5 /* Area.plist */,
+				C0B9616F1EDFB5DC00353BF5 /* City.plist */,
+				C0B961701EDFB5DC00353BF5 /* Province.plist */,
+				C0B961711EDFB5DC00353BF5 /* ZJDatePickerView.h */,
+				C0B961721EDFB5DC00353BF5 /* ZJDatePickerView.m */,
+				C0B961731EDFB5DC00353BF5 /* ZJMultipleAssociatedPickerView.h */,
+				C0B961741EDFB5DC00353BF5 /* ZJMultipleAssociatedPickerView.m */,
+				C0B961751EDFB5DC00353BF5 /* ZJMultiplePickerView.h */,
+				C0B961761EDFB5DC00353BF5 /* ZJMultiplePickerView.m */,
+				C0B961771EDFB5DC00353BF5 /* ZJSelectedTextField.h */,
+				C0B961781EDFB5DC00353BF5 /* ZJSelectedTextField.m */,
+				C0B961791EDFB5DC00353BF5 /* ZJSinglePickerView.h */,
+				C0B9617A1EDFB5DC00353BF5 /* ZJSinglePickerView.m */,
+				C0B9617B1EDFB5DC00353BF5 /* ZJToolBar.h */,
+				C0B9617C1EDFB5DC00353BF5 /* ZJToolBar.m */,
+				C0B9617D1EDFB5DC00353BF5 /* ZJUsefulPickerView.h */,
+				C0B9617E1EDFB5DC00353BF5 /* ZJUsefulPickerView.m */,
+			);
+			path = ZJUsefulPickerView;
+			sourceTree = "<group>";
+		};
+		C0C541091ED913E2006C037C /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C0C5410A1ED913E2006C037C /* CYLConstants.h */,
+				C0C5410B1ED913E2006C037C /* CYLPlusButton.h */,
+				C0C5410C1ED913E2006C037C /* CYLPlusButton.m */,
+				C0C5410D1ED913E2006C037C /* CYLTabBar.h */,
+				C0C5410E1ED913E2006C037C /* CYLTabBar.m */,
+				C0C5410F1ED913E2006C037C /* CYLTabBarController.h */,
+				C0C541101ED913E2006C037C /* CYLTabBarController.m */,
+				C0C541111ED913E2006C037C /* UIViewController+CYLTabBarControllerExtention.h */,
+				C0C541121ED913E2006C037C /* UIViewController+CYLTabBarControllerExtention.m */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		C0C541191ED91C93006C037C /* Public(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				C0C5411A1ED91C93006C037C /* controller */,
+				C0C5411B1ED91C93006C037C /* model */,
+				C0C5411C1ED91C93006C037C /* view */,
+			);
+			name = "Public(公共)";
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C0C5411A1ED91C93006C037C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C5411D1ED91CFE006C037C /* CYLTabBarControllerConfig.h */,
+				C0C5411E1ED91CFE006C037C /* CYLTabBarControllerConfig.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C0C5411B1ED91C93006C037C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C0C5411C1ED91C93006C037C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C0C541201ED91EC4006C037C /* Base(基类) */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541211ED91EC4006C037C /* controller */,
+				C0C541221ED91EC4006C037C /* model */,
+				C0C541231ED91EC4006C037C /* view */,
+			);
+			path = "Base(基类)";
+			sourceTree = "<group>";
+		};
+		C0C541211ED91EC4006C037C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541341ED92B0E006C037C /* BaseViewController.h */,
+				C0C541351ED92B0E006C037C /* BaseViewController.m */,
+				C0C5414B1ED93689006C037C /* BaseNavigationViewController.h */,
+				C0C5414C1ED93689006C037C /* BaseNavigationViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C0C541221ED91EC4006C037C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C0C541231ED91EC4006C037C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541661ED9763D006C037C /* BaseTableView.h */,
+				C0C541671ED9763D006C037C /* BaseTableView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C0C541241ED91EC4006C037C /* Customer(客户) */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541251ED91EC4006C037C /* controller */,
+				C0C541261ED91EC4006C037C /* model */,
+				C0C541271ED91EC4006C037C /* view */,
+			);
+			path = "Customer(客户)";
+			sourceTree = "<group>";
+		};
+		C0C541251ED91EC4006C037C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541461ED92CE9006C037C /* CustomerViewController.h */,
+				C0C541471ED92CE9006C037C /* CustomerViewController.m */,
+				C0C541481ED92CE9006C037C /* CustomerViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C0C541261ED91EC4006C037C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C0C541271ED91EC4006C037C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C0C541281ED91EC4006C037C /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541291ED91EC4006C037C /* controller */,
+				C0C5412A1ED91EC4006C037C /* model */,
+				C0C5412B1ED91EC4006C037C /* view */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		C0C541291ED91EC4006C037C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541371ED92CA3006C037C /* HomePageViewController.h */,
+				C0C541381ED92CA3006C037C /* HomePageViewController.m */,
+				C0C541391ED92CA3006C037C /* HomePageViewController.xib */,
+				C0C5414E1ED94FD9006C037C /* HomeDetailViewController.h */,
+				C0C5414F1ED94FD9006C037C /* HomeDetailViewController.m */,
+				C0C541501ED94FD9006C037C /* HomeDetailViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C0C5412A1ED91EC4006C037C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C0C5412B1ED91EC4006C037C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C0C5412C1ED91EC4006C037C /* Market(市场) */ = {
+			isa = PBXGroup;
+			children = (
+				C0C5412D1ED91EC4006C037C /* controller */,
+				C0C5412E1ED91EC4006C037C /* model */,
+				C0C5412F1ED91EC4006C037C /* view */,
+			);
+			path = "Market(市场)";
+			sourceTree = "<group>";
+		};
+		C0C5412D1ED91EC4006C037C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C5413C1ED92CBC006C037C /* MarketViewController.h */,
+				C0C5413D1ED92CBC006C037C /* MarketViewController.m */,
+				C0C5413E1ED92CBC006C037C /* MarketViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C0C5412E1ED91EC4006C037C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C0C5412F1ED91EC4006C037C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C0C541301ED91EC4006C037C /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541311ED91EC4006C037C /* controller */,
+				C0C541321ED91EC4006C037C /* model */,
+				C0C541331ED91EC4006C037C /* view */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		C0C541311ED91EC4006C037C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541411ED92CD2006C037C /* MineViewController.h */,
+				C0C541421ED92CD2006C037C /* MineViewController.m */,
+				C0C541431ED92CD2006C037C /* MineViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C0C541321ED91EC4006C037C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C0C541331ED91EC4006C037C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C0C541551ED9548A006C037C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C0C541561ED9548A006C037C /* Reachability.h */,
+				C0C541571ED9548A006C037C /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C0C541591ED9574D006C037C /* 网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				C0C5415A1ED9575B006C037C /* PPNetworkCache.h */,
+				C0C5415B1ED9575B006C037C /* PPNetworkCache.m */,
+				C0C5415C1ED9575B006C037C /* PPNetworkHelper.h */,
+				C0C5415D1ED9575B006C037C /* PPNetworkHelper.m */,
+			);
+			name = "网络请求";
+			sourceTree = "<group>";
+		};
+		F29DC1AD4841DB769252BCAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D871095453819DD1475EF2C9 /* Pods-CRMMobile.debug.xcconfig */,
+				6BE3EE15A072BAA57E3F2FF0 /* Pods-CRMMobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C057B51D1ED542970048BA86 /* CRMMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C057B54B1ED542990048BA86 /* Build configuration list for PBXNativeTarget "CRMMobile" */;
+			buildPhases = (
+				D275DA91B342FD502856B49B /* [CP] Check Pods Manifest.lock */,
+				C057B51A1ED542970048BA86 /* Sources */,
+				C057B51B1ED542970048BA86 /* Frameworks */,
+				C057B51C1ED542970048BA86 /* Resources */,
+				F7D2A311C6E97FC4ADEE5B52 /* [CP] Embed Pods Frameworks */,
+				AE30B4BEAF262609611B25A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRMMobile;
+			productName = CRMMobile;
+			productReference = C057B51E1ED542970048BA86 /* CRMMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C057B5361ED542980048BA86 /* CRMMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C057B54E1ED542990048BA86 /* Build configuration list for PBXNativeTarget "CRMMobileTests" */;
+			buildPhases = (
+				C057B5331ED542980048BA86 /* Sources */,
+				C057B5341ED542980048BA86 /* Frameworks */,
+				C057B5351ED542980048BA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C057B5391ED542990048BA86 /* PBXTargetDependency */,
+			);
+			name = CRMMobileTests;
+			productName = CRMMobileTests;
+			productReference = C057B5371ED542980048BA86 /* CRMMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C057B5411ED542990048BA86 /* CRMMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C057B5511ED542990048BA86 /* Build configuration list for PBXNativeTarget "CRMMobileUITests" */;
+			buildPhases = (
+				C057B53E1ED542990048BA86 /* Sources */,
+				C057B53F1ED542990048BA86 /* Frameworks */,
+				C057B5401ED542990048BA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C057B5441ED542990048BA86 /* PBXTargetDependency */,
+			);
+			name = CRMMobileUITests;
+			productName = CRMMobileUITests;
+			productReference = C057B5421ED542990048BA86 /* CRMMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C057B5161ED542960048BA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dagong;
+				TargetAttributes = {
+					C057B51D1ED542970048BA86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UTLW56F7NX;
+						ProvisioningStyle = Automatic;
+					};
+					C057B5361ED542980048BA86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UTLW56F7NX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C057B51D1ED542970048BA86;
+					};
+					C057B5411ED542990048BA86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UTLW56F7NX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C057B51D1ED542970048BA86;
+					};
+				};
+			};
+			buildConfigurationList = C057B5191ED542960048BA86 /* Build configuration list for PBXProject "CRMMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C057B5151ED542960048BA86;
+			productRefGroup = C057B51F1ED542970048BA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C057B51D1ED542970048BA86 /* CRMMobile */,
+				C057B5361ED542980048BA86 /* CRMMobileTests */,
+				C057B5411ED542990048BA86 /* CRMMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C057B51C1ED542970048BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C541521ED94FD9006C037C /* HomeDetailViewController.xib in Resources */,
+				C0B961801EDFB5DC00353BF5 /* City.plist in Resources */,
+				C0C5414A1ED92CE9006C037C /* CustomerViewController.xib in Resources */,
+				C0C5413B1ED92CA3006C037C /* HomePageViewController.xib in Resources */,
+				C0C541401ED92CBC006C037C /* MarketViewController.xib in Resources */,
+				C057B5311ED542980048BA86 /* LaunchScreen.storyboard in Resources */,
+				C057B52C1ED542980048BA86 /* Main.storyboard in Resources */,
+				C0B9617F1EDFB5DC00353BF5 /* Area.plist in Resources */,
+				C0C541541ED95271006C037C /* Assets.xcassets in Resources */,
+				C0B961811EDFB5DC00353BF5 /* Province.plist in Resources */,
+				C0C541451ED92CD2006C037C /* MineViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057B5351ED542980048BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057B5401ED542990048BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE30B4BEAF262609611B25A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRMMobile/Pods-CRMMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D275DA91B342FD502856B49B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D2A311C6E97FC4ADEE5B52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRMMobile/Pods-CRMMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C057B51A1ED542970048BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C541681ED9763D006C037C /* BaseTableView.m in Sources */,
+				C0C5411F1ED91CFE006C037C /* CYLTabBarControllerConfig.m in Sources */,
+				C0B961881EDFB5DC00353BF5 /* ZJUsefulPickerView.m in Sources */,
+				C0B961851EDFB5DC00353BF5 /* ZJSelectedTextField.m in Sources */,
+				C0C541491ED92CE9006C037C /* CustomerViewController.m in Sources */,
+				C057B5291ED542980048BA86 /* ViewController.m in Sources */,
+				C0B961871EDFB5DC00353BF5 /* ZJToolBar.m in Sources */,
+				C0C541021ED8323D006C037C /* NSString+Frame.m in Sources */,
+				C0C541131ED913E2006C037C /* CYLPlusButton.m in Sources */,
+				C0C5413A1ED92CA3006C037C /* HomePageViewController.m in Sources */,
+				C0C5415F1ED9575B006C037C /* PPNetworkHelper.m in Sources */,
+				C0C541081ED90D17006C037C /* QuickControl.m in Sources */,
+				C0B961841EDFB5DC00353BF5 /* ZJMultiplePickerView.m in Sources */,
+				C0C5414D1ED93689006C037C /* BaseNavigationViewController.m in Sources */,
+				C057B5261ED542980048BA86 /* AppDelegate.m in Sources */,
+				C0C541511ED94FD9006C037C /* HomeDetailViewController.m in Sources */,
+				C0B961831EDFB5DC00353BF5 /* ZJMultipleAssociatedPickerView.m in Sources */,
+				C0C541441ED92CD2006C037C /* MineViewController.m in Sources */,
+				C0C540FF1ED82D12006C037C /* UIView+Extension.m in Sources */,
+				C0C541151ED913E2006C037C /* CYLTabBarController.m in Sources */,
+				C0C541051ED83325006C037C /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
+				C0C541581ED9548A006C037C /* Reachability.m in Sources */,
+				C0C541361ED92B0E006C037C /* BaseViewController.m in Sources */,
+				C0C5413F1ED92CBC006C037C /* MarketViewController.m in Sources */,
+				C0B961861EDFB5DC00353BF5 /* ZJSinglePickerView.m in Sources */,
+				C0B961821EDFB5DC00353BF5 /* ZJDatePickerView.m in Sources */,
+				C0C541651ED95E26006C037C /* MBProgressHUD+MP.m in Sources */,
+				C0C541161ED913E2006C037C /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				C0C541141ED913E2006C037C /* CYLTabBar.m in Sources */,
+				C057B5231ED542980048BA86 /* main.m in Sources */,
+				C0C5415E1ED9575B006C037C /* PPNetworkCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057B5331ED542980048BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C057B53C1ED542990048BA86 /* CRMMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C057B53E1ED542990048BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C057B5471ED542990048BA86 /* CRMMobileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C057B5391ED542990048BA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C057B51D1ED542970048BA86 /* CRMMobile */;
+			targetProxy = C057B5381ED542990048BA86 /* PBXContainerItemProxy */;
+		};
+		C057B5441ED542990048BA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C057B51D1ED542970048BA86 /* CRMMobile */;
+			targetProxy = C057B5431ED542990048BA86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C057B52A1ED542980048BA86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C057B52B1ED542980048BA86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C057B52F1ED542980048BA86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C057B5301ED542980048BA86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C057B5491ED542990048BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C057B54A1ED542990048BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C057B54C1ED542990048BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D871095453819DD1475EF2C9 /* Pods-CRMMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTLW56F7NX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CRMMobile/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = CRMMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagongcredit.CRMMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C057B54D1ED542990048BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE3EE15A072BAA57E3F2FF0 /* Pods-CRMMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTLW56F7NX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CRMMobile/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = CRMMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagongcredit.CRMMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C057B54F1ED542990048BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UTLW56F7NX;
+				INFOPLIST_FILE = CRMMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagongcredit.CRMMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMMobile.app/CRMMobile";
+			};
+			name = Debug;
+		};
+		C057B5501ED542990048BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UTLW56F7NX;
+				INFOPLIST_FILE = CRMMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagongcredit.CRMMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMMobile.app/CRMMobile";
+			};
+			name = Release;
+		};
+		C057B5521ED542990048BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UTLW56F7NX;
+				INFOPLIST_FILE = CRMMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagongcredit.CRMMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRMMobile;
+			};
+			name = Debug;
+		};
+		C057B5531ED542990048BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UTLW56F7NX;
+				INFOPLIST_FILE = CRMMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagongcredit.CRMMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRMMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C057B5191ED542960048BA86 /* Build configuration list for PBXProject "CRMMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C057B5491ED542990048BA86 /* Debug */,
+				C057B54A1ED542990048BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C057B54B1ED542990048BA86 /* Build configuration list for PBXNativeTarget "CRMMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C057B54C1ED542990048BA86 /* Debug */,
+				C057B54D1ED542990048BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C057B54E1ED542990048BA86 /* Build configuration list for PBXNativeTarget "CRMMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C057B54F1ED542990048BA86 /* Debug */,
+				C057B5501ED542990048BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C057B5511ED542990048BA86 /* Build configuration list for PBXNativeTarget "CRMMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C057B5521ED542990048BA86 /* Debug */,
+				C057B5531ED542990048BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C057B5161ED542960048BA86 /* Project object */;
+}
